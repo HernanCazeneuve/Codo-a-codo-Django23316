@@ -1,18 +1,18 @@
 # Codo-a-codo-Django23316
-##Ejercicios integradores para revisar en la clase 7
-###1. Escribir una función que calcule el máximo común divisor entre dos números.
-###2. Escribir una función que calcule el mínimo común múltiplo entre dos números
-###3. Escribir un programa que reciba una cadena de caracteres y devuelva un diccionario con
+## Ejercicios integradores para revisar en la clase 7
+### 1. Escribir una función que calcule el máximo común divisor entre dos números.
+### 2. Escribir una función que calcule el mínimo común múltiplo entre dos números
+### 3. Escribir un programa que reciba una cadena de caracteres y devuelva un diccionario con
 cada palabra que contiene y la cantidad de veces que aparece (frecuencia).
-###4. Escribir una función que reciba una cadena de caracteres y devuelva un diccionario con cada
+### 4. Escribir una función que reciba una cadena de caracteres y devuelva un diccionario con cada
 palabra que contiene y la cantidad de veces que aparece (frecuencia). Escribir otra función
 que reciba el diccionario generado con la función anterior y devuelva una tupla con la
 palabra más repetida y su frecuencia.
-###5. Sabiendo que ValueError es la excepción que se lanza cuando no podemos convertir una
+### 5. Sabiendo que ValueError es la excepción que se lanza cuando no podemos convertir una
 cadena de texto en su valor numérico, escriba una función get_int() que lea un valor entero
 del usuario y lo devuelva, iterando mientras el valor no sea correcto. Intente resolver el
 ejercicio tanto de manera iterativa como recursiva.
-###6. Crear una clase llamada Persona. Sus atributos son: 
+### 6. Crear una clase llamada Persona. Sus atributos son: 
 nombre, edad y DNI. Construya los
 siguientes métodos para la clase:
  Un constructor, donde los datos pueden estar vacíos.
@@ -20,7 +20,7 @@ siguientes métodos para la clase:
 datos.
  mostrar(): Muestra los datos de la persona.
  Es_mayor_de_edad(): Devuelve un valor lógico indicando si es mayor de edad.
-###7. Crea una clase llamada Cuenta que tendrá los siguientes atributos: 
+### 7. Crea una clase llamada Cuenta que tendrá los siguientes atributos: 
 Titular (que es una
 persona) y cantidad (puede tener decimales). El titular será obligatorio y la cantidad es
 opcional. Crear los siguientes métodos para la clase:
@@ -32,7 +32,7 @@ directamente, sólo ingresando o retirando dinero.
 negativa, no se hará nada.
  retirar(cantidad): se retira una cantidad a la cuenta. La cuenta puede estar en números
 rojos.
-8. Vamos a definir ahora una “Cuenta Joven”, para ello vamos a crear una nueva clase
+### 8. Vamos a definir ahora una “Cuenta Joven”, para ello vamos a crear una nueva clase
 CuantaJoven que deriva de la clase creada en el punto 7. Cuando se crea esta nueva clase,
 además del titular y la cantidad se debe guardar una bonificación que estará expresada en
 tanto por ciento. Crear los siguientes métodos para la clase:
